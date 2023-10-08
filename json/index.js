@@ -13,11 +13,14 @@ function main() {
   Object.entries(data).forEach(o => {
     newData[Number(o[0])] = o[1]
   })
-  newData.forEach((v, i) => {
-    if (!v) {
+
+  for (let i = 0; i < newData.length; i++) {
+    const element = newData[i];
+    if (!element) {
       newData[i] = []
     }
-  })
+  }
+
   const obj = {
     ...image,
     data: newData

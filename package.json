@@ -2,7 +2,7 @@
   "name": "bilinear-interpolation",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./json/index.js",
   "scripts": {
     "start": "node ./json/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
